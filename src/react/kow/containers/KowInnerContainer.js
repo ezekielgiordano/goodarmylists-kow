@@ -2118,8 +2118,8 @@ class KowInnerContainer extends Component {
 				>
 					<div id="army-dropdown-section-id" className={style['army-dropdown-section']}>
 						<div className={style['main-page-link']}>
-							<span>
-								www.goodarmylists.com
+							<span className={style['main-page-link-label']}>
+								<a href="http://goodarmylists.s3-website.us-east-2.amazonaws.com/">-- Good Army Lists --</a>
 							</span>
 						</div>
 						<div className={style['main-title-box']}>
