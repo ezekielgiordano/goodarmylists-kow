@@ -291,22 +291,13 @@ class UnitOptionSelectionTile extends Component {
 				/>
 			)
 		})
+		
 		let spellDisplay = sortedSpells.map(unitOption => {
 			let highlighted = false
 			let greyedOut = false
-			for (i = 0; i < this.props.selectedUnitOptions.length; i++) {
-				if (
-					this.props.selectedUnitOptions[i].index === unitObject.index &&
-					this.props.selectedUnitOptions[i].unitOption.name === unitOption.name
-				) {
-					highlighted = true
-				}
-			}
-			for (i = 0; i < this.props.alliedSelectedUnitOptions.length; i++) {
-				if (
-					this.props.alliedSelectedUnitOptions[i].index === unitObject.index &&
-					this.props.alliedSelectedUnitOptions[i].unitOption.name === unitOption.name
-				) {
+
+			for (i = 0; i < highlightedUnitOptions.length; i++) {
+				if (parseInt(highlightedUnitOptions[i].id) === parseInt(unitOption.id)) {
 					highlighted = true
 				}
 			}
