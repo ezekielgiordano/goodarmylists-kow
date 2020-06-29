@@ -163,8 +163,7 @@ const FormattedList = props => {
 		<div className={style['formatted-list-box']}>
 			<div type="text" className={style['formatted-list']} id="formatted-list-id">
 				{header}<br />
-				{listDisplay}<br />
-				www.goodarmylists.com
+				{listDisplay}
 			</div>
 			<hr />		
 			<div className={style['formatted-list-buttons']}>
