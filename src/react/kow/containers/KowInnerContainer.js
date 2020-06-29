@@ -2028,7 +2028,7 @@ class KowInnerContainer extends Component {
 					<div id="army-dropdown-section-id" className={style['army-dropdown-section']}>
 						<div className={style['main-page-link']}>
 							<span className={style['main-page-link-label']}>
-								<a href="https://master.d25x5vjxndfaok.amplifyapp.com">-- Good Army Lists --</a>
+								<a href="https://www.goodarmylists.com">-- Good Army Lists --</a>
 							</span>
 						</div>
 						<div className={style['main-title-box']}>
